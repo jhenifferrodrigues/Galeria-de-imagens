@@ -1,0 +1,27 @@
+/* style.css */
+body {
+
+    background-color: #b96eeb;
+    margin: 0;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+
